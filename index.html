@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+      body {
+        font-family: "Outfit", sans-serif;
+      }
+      p {
+        font-size: 15px;
+      }
+      .bg-white {
+        background-color: hsl(0, 0%, 100%);
+      }
+      .bg-slate-300 {
+        background-color: hsl(212, 45%, 89%);
+      }
+      .color-slate-500 {
+        color: hsl(216, 15%, 48%);
+      }
+      .bg-slate-900 {
+        background-color: hsl(218, 44%, 22%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="flex items-center h-screen bg-slate-300">
+        <div
+          class="w-[320px] m-auto bg-white rounded-xl overflow-hidden px-4 pt-4 pb-6"
+        >
+          <img class="rounded-xl" src="./images/image-qr-code.png" alt="" />
+          <div class="text-center">
+            <h1 class="w-[256px] font-bold text-xl py-4 m-auto">
+              Improve your front-end skills by building projects
+            </h1>
+            <p class="w-[256px] m-auto">
+              Scan the QR code to visit Frontend Mentor and take your coding
+              skills to the next level
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
